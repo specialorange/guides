@@ -201,6 +201,6 @@ Let's update our `index.hbs` with some HTML for our home page and our links to t
 
 <p>We hope you find exactly what you're looking for in a place to stay.</p>
 
-{{#link-to "about"}}About{{/link-to}}
+{{#link-to "about"}}About{{/link-to}} <br>
 {{#link-to "contact"}}Click here to contact us.{{/link-to}}
 ```
